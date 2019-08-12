@@ -1,0 +1,19 @@
+.product-bid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-bid input[type="text"] {
+    margin-left: 10px;
+}
+
+.form-group button.btn.btn-primary {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    border: none;
+    font-size: larger;
+    text-transform: uppercase;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.product {
+    width: 450px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.counter{
+    display:block;
+    font-size: large;
+    font-weight: bold;
+}
