@@ -14,7 +14,7 @@ namespace Auction.Net.Repositories
 
         public int AddBidInfo(BidInfo bid)
         {
-            bid.BidId = _context.Bids.OrderByDescending(p => p.BidId).FirstOrDefault()?.BidId?? 0 + 1;
+            bid.BidId = (_context.Bids.OrderByDescending(p => p.BidId).FirstOrDefault()?.BidId?? 0) +1;
             var newBid = _context.Bids.Add(bid);
             _context.SaveChanges();
             return newBid.Entity.BidId;
